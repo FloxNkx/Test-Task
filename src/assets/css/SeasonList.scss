@@ -1,0 +1,84 @@
+.vv-card {
+    .v-image {
+      &:after {
+        position: absolute;
+        content: "";
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        opacity: 1;
+        transition: 0.3s opacity;
+      }
+    }
+    &:hover {
+      &:before {
+        border: 15px solid yellow;
+        opacity: 0.4;
+      }
+    }
+    .headline,
+    .subheading {
+      width: 100%;
+    }
+    .episod-name {
+      z-index: 2;
+      flex-wrap: wrap;
+      text-align: center;
+      p {
+        margin: 0;
+      }
+    }
+    .list {
+      height: 110px;
+      overflow-y: scroll;
+    }
+    .border {
+      list-style: none;
+      position: relative;
+      padding: 0;
+    }
+    .border li {
+      font-family: "Trebuchet MS", "Lucida Sans";
+      padding: 7px 20px;
+      z-index: 3;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border-left: 10px solid #f05d22; 
+      box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+          -2px -2px 5px 0 rgba(0,0,0,.1),
+          2px 2px 5px 0 rgba(0,0,0,.1),
+          -2px 2px 5px 0 rgba(0,0,0,.1);
+      font-size: 20px;
+      letter-spacing: 2px;
+      transition: 0.3s all linear;
+    }
+    .favourite {
+      width: 30px;
+      height: 30px;
+      color: red;
+    }
+    .material-icons{
+      color: red;
+    }
+    .favourite_button{
+      background: "yellow"
+    }
+  
+    .fav {
+    color: rgb(170, 170, 170);
+    fill: currentColor;
+    width: 20px !important;
+    height: 20px !important;
+    &:hover {
+      cursor: pointer;
+      color: #db1d40;
+    }
+  }
+  .liked {
+    fill: currentColor;
+    color: #db1d40 !important;
+  }
+  }
