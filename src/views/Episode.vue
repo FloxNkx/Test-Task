@@ -73,7 +73,6 @@
 </template>
 
 <script>
-import axios from "axios";
 import moment from 'moment';
 import '../assets/css/Episode.scss';
 import TwitterButton from "vue-share-buttons/src/components/TwitterButton";

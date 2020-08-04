@@ -25,7 +25,6 @@
 </template>
 
 <script>
-    import axios from "axios";
     import '../assets/css/Character.scss';
     import TimeLine from "../views/TimeLine.vue";
     import TwitterButton from "vue-share-buttons/src/components/TwitterButton";

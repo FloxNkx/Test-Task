@@ -27,7 +27,6 @@
 </template>
 
 <script>
-  import axios from "axios";
   import '../assets/css/Winners.scss';
   
   export default {
