@@ -20,7 +20,7 @@ const mutations = {
 
 const actions = {
     GET_ABOUT: async (context, url) => {
-        let {data} = await Axios.get(`http://www.omdbapi.com/?i=${state.id}&apikey=${state.key}`);
+        let {data} = await Axios.get(`https://www.omdbapi.com/?i=${state.id}&apikey=${state.key}`);
         context.commit('SET_ABOUT', data);
     },
 };
