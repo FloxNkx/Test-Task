@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@mdi/font": "5.4.55",
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "core-js": "^2.6.5",
     "dateformat": "^3.0.3",
     "material-design-icons-iconfont": "5.0.1",
@@ -32,7 +32,7 @@
     "@vue/cli-plugin-babel": "^3.10.0",
     "@vue/cli-plugin-eslint": "^3.10.0",
     "@vue/cli-service": "^3.10.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
