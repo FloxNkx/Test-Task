@@ -13,7 +13,7 @@
     "core-js": "^2.6.5",
     "dateformat": "^3.0.3",
     "material-design-icons-iconfont": "5.0.1",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "sharer.js": "^0.4.0",
     "vue": "^2.6.10",
     "vue-dynamic-dropdown": "^1.0.12",
