@@ -24,7 +24,7 @@
     "vue-social-share": "0.0.3",
     "vue-social-sharing": "^3.0.0-beta.11",
     "vue-tree-nav": "0.0.16",
-    "vuetify": "^2.0.0",
+    "vuetify": "^2.6.10",
     "vuex": "^3.5.1"
   },
   "devDependencies": {
